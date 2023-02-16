@@ -5,7 +5,7 @@ git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 # Specify your gem's dependencies in shopify_graphql_client.gemspec
 gemspec
 
-gem "shopify_api", ">= 7.0.1"
+gem "shopify_api", ">= 21.2.0"
 
 gem "pry"
 gem "dotenv"
